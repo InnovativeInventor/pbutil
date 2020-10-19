@@ -1,4 +1,0 @@
-cargo:rerun-if-changed=/home/max/.cargo/registry/src/github.com-1ecc6299db9ec823/xcb-0.8.2/build.rs
-cargo:rerun-if-changed=/home/max/.cargo/registry/src/github.com-1ecc6299db9ec823/xcb-0.8.2/rs_client.py
-cargo:rerun-if-changed=/home/max/.cargo/registry/src/github.com-1ecc6299db9ec823/xcb-0.8.2/xml
-cargo:rerun-if-changed=/home/max/.cargo/registry/src/github.com-1ecc6299db9ec823/xcb-0.8.2/xcbgen
