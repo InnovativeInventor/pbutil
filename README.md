@@ -6,6 +6,11 @@ This is intended to bring the same, nice interface of `pbcopy` and `pbpaste` on 
 
 Executables provided in `/target`
 
+## Install
+```bash
+cargo install pbutil
+```
+
 ## Usage
 To copy "Test" into the clipboard:
 ```bash

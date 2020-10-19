@@ -2,7 +2,11 @@
 name = "pbutil"
 version = "0.1.0"
 authors = ["Max Fan <theinnovativeinventor@gmail.com>"]
+license = "GPL-3.0"
 edition = "2018"
+documentation = "https://github.com/InnovativeInventor/pbutil"
+homepage = "https://github.com/InnovativeInventor/pbutil"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
