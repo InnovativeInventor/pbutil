@@ -1,16 +1,19 @@
 extern crate clipboard;
 
-use clipboard::ClipboardProvider;
 use clipboard::ClipboardContext;
+use clipboard::ClipboardProvider;
 use std;
 use std::io::{self, Read};
+use std::thread;
 
 fn main() {
     let mut ctx: ClipboardContext = ClipboardProvider::new().unwrap();
 
     let mut input_string = String::new();
 
-    io::stdin().read_to_string(&mut input_string).expect("Not a string!");
+    io::stdin()
+        .read_to_string(&mut input_string)
+        .expect("Not a string!");
 
     ctx.set_contents(input_string.to_owned()).unwrap();
 
