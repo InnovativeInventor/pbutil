@@ -1,6 +1,6 @@
 [package]
 name = "pbutil"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Max Fan <theinnovativeinventor@gmail.com>"]
 license = "GPL-3.0"
 edition = "2018"
