@@ -19,5 +19,7 @@ fn main() {
 
     // Due to https://github.com/aweinstock314/rust-clipboard/issues/28
     println!("Copied to clipboard! Quit CLI after pasting.");
-    thread::park();
+    loop {
+        thread::park();
+    }
 }
